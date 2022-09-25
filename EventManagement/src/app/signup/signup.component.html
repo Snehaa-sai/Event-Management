@@ -1,0 +1,59 @@
+<<body>
+  <div class="center">
+    <h1>Signup</h1>
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+      <div class="txt_field">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="fullname"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Full name"
+        />
+        <span></span>
+        <label for="exampleInputEmail1" class="form-label"></label>
+      </div>
+
+      <div class="txt_field">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="mobile"
+          id="exampleInputPassword1"
+          placeholder="Mobile Number"
+        />
+        <span></span>
+        <label for="exampleInputPassword1" class="form-label"></label>
+      </div>
+
+      <div class="txt_field">
+        <input
+          type="text"
+          class="form-control"
+          formControlName="email"
+          id="exampleInputPassword1"
+          placeholder="Email"
+        />
+        <span></span>
+        <label for="exampleInputPassword1" class="form-label"></label>
+      </div>
+
+      <div class="txt_field">
+        <input
+          type="password"
+          class="form-control"
+          formControlName="password"
+          id="exampleInputPassword1"
+          placeholder="Password"
+        />
+        <span></span>
+        <label for="exampleInputPassword1" class="form-label"></label>
+      </div>
+      <input type="submit" value="Register" />
+      <div class="signup_link">
+        Already member?<a routerLink="/login"> Click to login</a>
+      </div>
+    </form>
+  </div>
+</body>

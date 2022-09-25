@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": 3,
+      "firstName": "snehaa",
+      "lastName": "sai",
+      "email": "snehaa@gmail.com",
+      "mobile": "987654321",
+      "salary": "500000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "ABDUL BASITH N",
+      "email": "baaji@gmail.com",
+      "password": "123456",
+      "mobile": "978865214",
+      "id": 1
+    },
+    {
+      "fullname": "snehaa",
+      "email": "snehaa@gmail.com",
+      "password": "snehaa",
+      "mobile": "0636924228",
+      "id": 2
+    }
+  ]
+}
